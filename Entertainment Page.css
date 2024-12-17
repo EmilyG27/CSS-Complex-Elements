@@ -1,0 +1,76 @@
+header {
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+button {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(252, 235, 210);
+    border-radius: 5px;
+}
+
+body {
+    background-color: silver;
+
+}
+
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: black;
+    color: rgb(252, 235, 210);
+}
+
+#labyrinth {
+    height: 500px;
+
+}
+
+#pan {
+    height: 750px;
+}
+
+#zelda {
+    height: 555px;
+}
+
+#labyrinth:hover {
+    border: solid rgb(32, 2, 32);
+    box-shadow: 0 2px 5px purple;
+
+}
+
+#pan:hover {
+    border: solid rgb(3, 3, 59);
+    box-shadow: 0 2px 5px lightseagreen;
+}
+
+#zelda:hover {
+    border: solid rgb(83, 27, 6);
+    box-shadow: 0 2px 5px rgb(150, 40, 0);
+}
+
+#video {
+    background-color: rgb(252, 186, 252);
+}
+
+#video:hover {
+    background-color: rgb(32,2,32);
+    color: bisque;
+}
+
+#form_submit {
+    height: 20px;
+    width: 60px;
+}
+
+#form_submit:hover {
+    background-color: black;
+    color: beige;
+}

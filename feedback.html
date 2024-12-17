@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTI-8">
+        <meta name="viewport" content="width=device-width, inital size=1.0">
+        <title>Feedback</title>
+        <link rel="stylesheet" href="Entertainment Page.css">
+    </head>
+
+    <body>
+        <header>Feedback Form</header>
+
+        <form action="/submit" methods="post">
+            <label for="rating">Rating</label>
+            <input type="number" id="number" name="number" min="1" max="5" step="1">
+
+            <label for="comment">Comments</label>
+            <textarea id="comment" name="comment" rows="15" cols="50" placeholder="Leave a comment"></textarea>
+
+            <button id="form_submit" type="submit">Submit</button>
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    background-color: beige;
+}
+
+nav {
+    text-align: center;
+    ;
+}
+
+nav button {
+    list-style: none;
+    background-color: white;
+    width: 100px;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+fieldset {
+    margin: 10px;
+    border-radius: 3px;
+}
+
+input {
+    margin: 5px;
+}
+
+table {
+    text-align: center;
+    border: solid black 1px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
